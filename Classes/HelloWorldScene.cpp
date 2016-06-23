@@ -290,7 +290,8 @@ void HelloWorld::draw(){
 	kmGLPopMatrix();
 }
 
-void HelloWorld::ccTouchesBegan(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent){
+void HelloWorld::ccTouchesBegan(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent)
+{
 	CCSetIterator iter = pTouches->begin();
 	for(; iter != pTouches->end(); iter++){
 		CCTouch* pTouch = (CCTouch*)*iter;

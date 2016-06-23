@@ -3,7 +3,7 @@
 
 #include "cocos2d.h"
 #include "Box2D/Box2D.h"
-#include "PRFilledPolygon.h"
+#include "PRKit/PRFilledPolygon.h"
 
 #define PTM_RATIO 32
 

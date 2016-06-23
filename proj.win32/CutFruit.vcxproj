@@ -140,10 +140,10 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="..\Classes\Pineapple.cpp" />
     <ClCompile Include="..\Classes\PolygonSprite.cpp" />
-    <ClCompile Include="..\Classes\PRFilledPolygon.cpp" />
-    <ClCompile Include="..\Classes\PRRatcliffTriangulator.cpp" />
+    <ClCompile Include="..\Classes\PRKit\PRFilledPolygon.cpp" />
+    <ClCompile Include="..\Classes\PRKit\PRRatcliffTriangulator.cpp" />
+    <ClCompile Include="..\Classes\PRKit\triangulate.cpp" />
     <ClCompile Include="..\Classes\Strawberry.cpp" />
-    <ClCompile Include="..\Classes\triangulate.cpp" />
     <ClCompile Include="..\Classes\Watermelon.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -157,12 +157,12 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\Pineapple.h" />
     <ClInclude Include="..\Classes\PolygonSprite.h" />
-    <ClInclude Include="..\Classes\PRFilledPolygon.h" />
-    <ClInclude Include="..\Classes\PRRatcliffTriangulator.h" />
-    <ClInclude Include="..\Classes\PRTriangulator.h" />
+    <ClInclude Include="..\Classes\PRKit\PRFilledPolygon.h" />
+    <ClInclude Include="..\Classes\PRKit\PRRatcliffTriangulator.h" />
+    <ClInclude Include="..\Classes\PRKit\PRTriangulator.h" />
+    <ClInclude Include="..\Classes\PRKit\triangulate.h" />
     <ClInclude Include="..\Classes\RayCastCallback.h" />
     <ClInclude Include="..\Classes\Strawberry.h" />
-    <ClInclude Include="..\Classes\triangulate.h" />
     <ClInclude Include="..\Classes\Watermelon.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
